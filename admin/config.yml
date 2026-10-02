@@ -1,8 +1,10 @@
 backend:
-  name: git-gateway
+  name: github
   repo: MrDeldar/blog
+  branch: main
 
 media_folder: "images"
+public_folder: "/images"
 
 collections:
   - name: "blog"
