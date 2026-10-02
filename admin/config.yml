@@ -5,7 +5,7 @@ backend:
   auth_scope: repo
   auth_endpoint: oauth
   client_id: "0v231iceL6BAgxrJB60S"
-  client_secret: "کد_Client_Secret_را_اینجا_بگذارید"
+  client_secret: "5f5f676f7fd8f29baf48d30cbc6690f90336e1ef"
 
 media_folder: "images"
 public_folder: "/images"
