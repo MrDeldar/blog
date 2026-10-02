@@ -1,0 +1,15 @@
+backend:
+  name: github
+  repo: MrDeldar/blog
+
+media_folder: "images"
+
+collections:
+  - name: "blog"
+    label: "مطالب وبلاگ"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "عنوان مطلب", name: "title", widget: "string"}
+      - {label: "متن مطلب", name: "body", widget: "markdown"}
